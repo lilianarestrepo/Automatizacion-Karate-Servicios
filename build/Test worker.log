@@ -1,0 +1,83 @@
+13:51:33.643 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:51:34.329 request:
+1 > GET https://petstore.swagger.io/v2/user/ss
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+13:51:35.180 response time in milliseconds: 841,60
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Mon, 30 Dec 2019 18:51:35 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":11,"username":"ss","firstName":"dld","lastName":"dcd","email":"d@gmail.com","password":"3ede","phone":"33322111","userStatus":10}
+
+13:51:35.284 [print] resp:ss
+ap configuration: could not find or read file: classpath:karate-config.js
+13:46:04.509 request:
+1 > GET https://petstore.swagger.io/v2/user/ss
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+13:46:04.878 response time in milliseconds: 367,09
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Mon, 30 Dec 2019 18:46:05 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":11,"username":"ss","firstName":"dld","lastName":"dcd","email":"d@gmail.com","password":"3ede","phone":"33322111","userStatus":10}
+
+13:46:04.892 [print] resp:11
+or
+tuit.karate.ScriptObjectMap@5d2b8003
+responseHeaders": {
+    "Date": [
+      "Mon, 30 Dec 2019 18:42:53 GMT"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Access-Control-Allow-Methods": [
+      "GET, POST, DELETE, PUT"
+    ],
+    "Access-Control-Allow-Headers": [
+      "Content-Type, api_key, Authorization"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Connection": [
+      "close"
+    ],
+    "Server": [
+      "Jetty(9.2.9.v20150224)"
+    ]
+  },
+  "responseTime": 273,
+  "response": {
+    "firstName": "dld",
+    "lastName": "dcd",
+    "password": "3ede",
+    "userStatus": 10,
+    "phone": "33322111",
+    "id": 11,
+    "email": "d@gmail.com",
+    "username": "ss"
+  },
+  "requestTimeStamp": 1577731373422,
+  "responseStatus": 200,
+  "__loop": -1,
+  "value": "valor",
+  "responseCookies": null
+}
+
